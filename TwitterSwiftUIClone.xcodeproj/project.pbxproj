@@ -40,6 +40,7 @@
 		28F9C19228C7279200C1D2E1 /* Tweet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F9C19128C7279200C1D2E1 /* Tweet.swift */; };
 		28F9C19428C7287F00C1D2E1 /* FollowUnfollowAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F9C19328C7287F00C1D2E1 /* FollowUnfollowAPIService.swift */; };
 		28F9C19628C728E500C1D2E1 /* MessageAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F9C19528C728E500C1D2E1 /* MessageAPIService.swift */; };
+		28F9C19828C72EB600C1D2E1 /* TweetAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F9C19728C72EB600C1D2E1 /* TweetAPIService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -72,6 +73,7 @@
 		28F9C19128C7279200C1D2E1 /* Tweet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tweet.swift; sourceTree = "<group>"; };
 		28F9C19328C7287F00C1D2E1 /* FollowUnfollowAPIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowUnfollowAPIService.swift; sourceTree = "<group>"; };
 		28F9C19528C728E500C1D2E1 /* MessageAPIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageAPIService.swift; sourceTree = "<group>"; };
+		28F9C19728C72EB600C1D2E1 /* TweetAPIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetAPIService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -288,6 +290,7 @@
 				28F9C18928C7266A00C1D2E1 /* AuthUserAPIService.swift */,
 				28F9C19328C7287F00C1D2E1 /* FollowUnfollowAPIService.swift */,
 				28F9C19528C728E500C1D2E1 /* MessageAPIService.swift */,
+				28F9C19728C72EB600C1D2E1 /* TweetAPIService.swift */,
 			);
 			path = API;
 			sourceTree = "<group>";
@@ -487,6 +490,7 @@
 				28F9C17828C7252900C1D2E1 /* FirebaseGlobals.swift in Sources */,
 				28F9C18E28C7275600C1D2E1 /* UserStats.swift in Sources */,
 				28F9C17628C7251700C1D2E1 /* TypeAliasses.swift in Sources */,
+				28F9C19828C72EB600C1D2E1 /* TweetAPIService.swift in Sources */,
 				28F9C16A28C7247800C1D2E1 /* AppColors.swift in Sources */,
 				28F9C16C28C724AE00C1D2E1 /* ImagePicker.swift in Sources */,
 				28F9C18C28C7273500C1D2E1 /* User.swift in Sources */,
