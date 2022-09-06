@@ -41,6 +41,7 @@
 		28F9C19428C7287F00C1D2E1 /* FollowUnfollowAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F9C19328C7287F00C1D2E1 /* FollowUnfollowAPIService.swift */; };
 		28F9C19628C728E500C1D2E1 /* MessageAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F9C19528C728E500C1D2E1 /* MessageAPIService.swift */; };
 		28F9C19828C72EB600C1D2E1 /* TweetAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F9C19728C72EB600C1D2E1 /* TweetAPIService.swift */; };
+		28F9C19A28C72EF800C1D2E1 /* UserAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F9C19928C72EF800C1D2E1 /* UserAPIService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -74,6 +75,7 @@
 		28F9C19328C7287F00C1D2E1 /* FollowUnfollowAPIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowUnfollowAPIService.swift; sourceTree = "<group>"; };
 		28F9C19528C728E500C1D2E1 /* MessageAPIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageAPIService.swift; sourceTree = "<group>"; };
 		28F9C19728C72EB600C1D2E1 /* TweetAPIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetAPIService.swift; sourceTree = "<group>"; };
+		28F9C19928C72EF800C1D2E1 /* UserAPIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAPIService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -291,6 +293,7 @@
 				28F9C19328C7287F00C1D2E1 /* FollowUnfollowAPIService.swift */,
 				28F9C19528C728E500C1D2E1 /* MessageAPIService.swift */,
 				28F9C19728C72EB600C1D2E1 /* TweetAPIService.swift */,
+				28F9C19928C72EF800C1D2E1 /* UserAPIService.swift */,
 			);
 			path = API;
 			sourceTree = "<group>";
@@ -501,6 +504,7 @@
 				287804D928C5B04300B6845D /* ContentView.swift in Sources */,
 				28F9C18228C7259C00C1D2E1 /* FirestoreCollections.swift in Sources */,
 				28F9C17028C724D000C1D2E1 /* AuthenticationTextFieldViewModifier.swift in Sources */,
+				28F9C19A28C72EF800C1D2E1 /* UserAPIService.swift in Sources */,
 				287804D728C5B04300B6845D /* TwitterSwiftUICloneApp.swift in Sources */,
 				28F9C19028C7277A00C1D2E1 /* Message.swift in Sources */,
 				28F9C18428C725B000C1D2E1 /* DevicesAttributes.swift in Sources */,
