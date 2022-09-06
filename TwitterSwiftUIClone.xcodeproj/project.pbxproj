@@ -38,6 +38,7 @@
 		28F9C18E28C7275600C1D2E1 /* UserStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F9C18D28C7275600C1D2E1 /* UserStats.swift */; };
 		28F9C19028C7277A00C1D2E1 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F9C18F28C7277A00C1D2E1 /* Message.swift */; };
 		28F9C19228C7279200C1D2E1 /* Tweet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F9C19128C7279200C1D2E1 /* Tweet.swift */; };
+		28F9C19428C7287F00C1D2E1 /* FollowUnfollowAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F9C19328C7287F00C1D2E1 /* FollowUnfollowAPIService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,6 +69,7 @@
 		28F9C18D28C7275600C1D2E1 /* UserStats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStats.swift; sourceTree = "<group>"; };
 		28F9C18F28C7277A00C1D2E1 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		28F9C19128C7279200C1D2E1 /* Tweet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tweet.swift; sourceTree = "<group>"; };
+		28F9C19328C7287F00C1D2E1 /* FollowUnfollowAPIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowUnfollowAPIService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -282,6 +284,7 @@
 			isa = PBXGroup;
 			children = (
 				28F9C18928C7266A00C1D2E1 /* AuthUserAPIService.swift */,
+				28F9C19328C7287F00C1D2E1 /* FollowUnfollowAPIService.swift */,
 			);
 			path = API;
 			sourceTree = "<group>";
@@ -486,6 +489,7 @@
 				28F9C17C28C7254400C1D2E1 /* Color.swift in Sources */,
 				28F9C17E28C7256700C1D2E1 /* TweetFilterOptions.swift in Sources */,
 				28F9C18828C725D600C1D2E1 /* APIResult.swift in Sources */,
+				28F9C19428C7287F00C1D2E1 /* FollowUnfollowAPIService.swift in Sources */,
 				287804D928C5B04300B6845D /* ContentView.swift in Sources */,
 				28F9C18228C7259C00C1D2E1 /* FirestoreCollections.swift in Sources */,
 				28F9C17028C724D000C1D2E1 /* AuthenticationTextFieldViewModifier.swift in Sources */,
