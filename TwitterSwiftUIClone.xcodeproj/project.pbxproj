@@ -39,6 +39,7 @@
 		28F9C19028C7277A00C1D2E1 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F9C18F28C7277A00C1D2E1 /* Message.swift */; };
 		28F9C19228C7279200C1D2E1 /* Tweet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F9C19128C7279200C1D2E1 /* Tweet.swift */; };
 		28F9C19428C7287F00C1D2E1 /* FollowUnfollowAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F9C19328C7287F00C1D2E1 /* FollowUnfollowAPIService.swift */; };
+		28F9C19628C728E500C1D2E1 /* MessageAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F9C19528C728E500C1D2E1 /* MessageAPIService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -70,6 +71,7 @@
 		28F9C18F28C7277A00C1D2E1 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		28F9C19128C7279200C1D2E1 /* Tweet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tweet.swift; sourceTree = "<group>"; };
 		28F9C19328C7287F00C1D2E1 /* FollowUnfollowAPIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowUnfollowAPIService.swift; sourceTree = "<group>"; };
+		28F9C19528C728E500C1D2E1 /* MessageAPIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageAPIService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -285,6 +287,7 @@
 			children = (
 				28F9C18928C7266A00C1D2E1 /* AuthUserAPIService.swift */,
 				28F9C19328C7287F00C1D2E1 /* FollowUnfollowAPIService.swift */,
+				28F9C19528C728E500C1D2E1 /* MessageAPIService.swift */,
 			);
 			path = API;
 			sourceTree = "<group>";
@@ -479,6 +482,7 @@
 				28F9C18028C7258000C1D2E1 /* StyleGuide.swift in Sources */,
 				28F9C17228C724EF00C1D2E1 /* BubbleShape.swift in Sources */,
 				28F9C18628C725C700C1D2E1 /* AssetsAccessPoint.swift in Sources */,
+				28F9C19628C728E500C1D2E1 /* MessageAPIService.swift in Sources */,
 				28F9C18A28C7266A00C1D2E1 /* AuthUserAPIService.swift in Sources */,
 				28F9C17828C7252900C1D2E1 /* FirebaseGlobals.swift in Sources */,
 				28F9C18E28C7275600C1D2E1 /* UserStats.swift in Sources */,
