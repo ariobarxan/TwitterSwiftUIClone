@@ -45,6 +45,7 @@
 		28F9C19C28C72F4700C1D2E1 /* UserRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F9C19B28C72F4700C1D2E1 /* UserRepository.swift */; };
 		28F9C19E28C72FAC00C1D2E1 /* AuthUserRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F9C19D28C72FAC00C1D2E1 /* AuthUserRepository.swift */; };
 		28F9C1A028C72FFC00C1D2E1 /* TweetRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F9C19F28C72FFC00C1D2E1 /* TweetRepository.swift */; };
+		28F9C1A228C7304700C1D2E1 /* MessageRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F9C1A128C7304700C1D2E1 /* MessageRepository.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -82,6 +83,7 @@
 		28F9C19B28C72F4700C1D2E1 /* UserRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRepository.swift; sourceTree = "<group>"; };
 		28F9C19D28C72FAC00C1D2E1 /* AuthUserRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthUserRepository.swift; sourceTree = "<group>"; };
 		28F9C19F28C72FFC00C1D2E1 /* TweetRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetRepository.swift; sourceTree = "<group>"; };
+		28F9C1A128C7304700C1D2E1 /* MessageRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageRepository.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -175,6 +177,7 @@
 			isa = PBXGroup;
 			children = (
 				28F9C19D28C72FAC00C1D2E1 /* AuthUserRepository.swift */,
+				28F9C1A128C7304700C1D2E1 /* MessageRepository.swift */,
 				28F9C19F28C72FFC00C1D2E1 /* TweetRepository.swift */,
 				28F9C19B28C72F4700C1D2E1 /* UserRepository.swift */,
 			);
@@ -503,6 +506,7 @@
 				28F9C19E28C72FAC00C1D2E1 /* AuthUserRepository.swift in Sources */,
 				28F9C18E28C7275600C1D2E1 /* UserStats.swift in Sources */,
 				28F9C17628C7251700C1D2E1 /* TypeAliasses.swift in Sources */,
+				28F9C1A228C7304700C1D2E1 /* MessageRepository.swift in Sources */,
 				28F9C19828C72EB600C1D2E1 /* TweetAPIService.swift in Sources */,
 				28F9C16A28C7247800C1D2E1 /* AppColors.swift in Sources */,
 				28F9C19C28C72F4700C1D2E1 /* UserRepository.swift in Sources */,
