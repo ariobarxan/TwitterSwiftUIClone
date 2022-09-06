@@ -56,11 +56,11 @@ final class MessageAPIService: MessageAPIServiceProtocol{
                 let data = change.document.data()
                 let uid  = change.document.documentID
                 
-//                let userRepo = UserRepository()
-//
-//                userRepo.retrieveUser(with: uid) { user in
-//                    completion(user, data)
-//                }
+                let userRepo = UserRepository()
+
+                userRepo.retrieveUser(with: uid) { user in
+                    completion(user, data)
+                }
             }
         }
     }
