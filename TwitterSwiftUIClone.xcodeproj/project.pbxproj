@@ -33,6 +33,11 @@
 		28F9C18428C725B000C1D2E1 /* DevicesAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F9C18328C725B000C1D2E1 /* DevicesAttributes.swift */; };
 		28F9C18628C725C700C1D2E1 /* AssetsAccessPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F9C18528C725C700C1D2E1 /* AssetsAccessPoint.swift */; };
 		28F9C18828C725D600C1D2E1 /* APIResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F9C18728C725D600C1D2E1 /* APIResult.swift */; };
+		28F9C18A28C7266A00C1D2E1 /* AuthUserAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F9C18928C7266A00C1D2E1 /* AuthUserAPIService.swift */; };
+		28F9C18C28C7273500C1D2E1 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F9C18B28C7273500C1D2E1 /* User.swift */; };
+		28F9C18E28C7275600C1D2E1 /* UserStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F9C18D28C7275600C1D2E1 /* UserStats.swift */; };
+		28F9C19028C7277A00C1D2E1 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F9C18F28C7277A00C1D2E1 /* Message.swift */; };
+		28F9C19228C7279200C1D2E1 /* Tweet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F9C19128C7279200C1D2E1 /* Tweet.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +63,11 @@
 		28F9C18328C725B000C1D2E1 /* DevicesAttributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevicesAttributes.swift; sourceTree = "<group>"; };
 		28F9C18528C725C700C1D2E1 /* AssetsAccessPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetsAccessPoint.swift; sourceTree = "<group>"; };
 		28F9C18728C725D600C1D2E1 /* APIResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIResult.swift; sourceTree = "<group>"; };
+		28F9C18928C7266A00C1D2E1 /* AuthUserAPIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthUserAPIService.swift; sourceTree = "<group>"; };
+		28F9C18B28C7273500C1D2E1 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		28F9C18D28C7275600C1D2E1 /* UserStats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStats.swift; sourceTree = "<group>"; };
+		28F9C18F28C7277A00C1D2E1 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		28F9C19128C7279200C1D2E1 /* Tweet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tweet.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -187,6 +197,10 @@
 		28F9C14E28C7203400C1D2E1 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				28F9C18B28C7273500C1D2E1 /* User.swift */,
+				28F9C18D28C7275600C1D2E1 /* UserStats.swift */,
+				28F9C18F28C7277A00C1D2E1 /* Message.swift */,
+				28F9C19128C7279200C1D2E1 /* Tweet.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -267,6 +281,7 @@
 		28F9C15728C7209500C1D2E1 /* API */ = {
 			isa = PBXGroup;
 			children = (
+				28F9C18928C7266A00C1D2E1 /* AuthUserAPIService.swift */,
 			);
 			path = API;
 			sourceTree = "<group>";
@@ -461,10 +476,13 @@
 				28F9C18028C7258000C1D2E1 /* StyleGuide.swift in Sources */,
 				28F9C17228C724EF00C1D2E1 /* BubbleShape.swift in Sources */,
 				28F9C18628C725C700C1D2E1 /* AssetsAccessPoint.swift in Sources */,
+				28F9C18A28C7266A00C1D2E1 /* AuthUserAPIService.swift in Sources */,
 				28F9C17828C7252900C1D2E1 /* FirebaseGlobals.swift in Sources */,
+				28F9C18E28C7275600C1D2E1 /* UserStats.swift in Sources */,
 				28F9C17628C7251700C1D2E1 /* TypeAliasses.swift in Sources */,
 				28F9C16A28C7247800C1D2E1 /* AppColors.swift in Sources */,
 				28F9C16C28C724AE00C1D2E1 /* ImagePicker.swift in Sources */,
+				28F9C18C28C7273500C1D2E1 /* User.swift in Sources */,
 				28F9C17C28C7254400C1D2E1 /* Color.swift in Sources */,
 				28F9C17E28C7256700C1D2E1 /* TweetFilterOptions.swift in Sources */,
 				28F9C18828C725D600C1D2E1 /* APIResult.swift in Sources */,
@@ -472,10 +490,12 @@
 				28F9C18228C7259C00C1D2E1 /* FirestoreCollections.swift in Sources */,
 				28F9C17028C724D000C1D2E1 /* AuthenticationTextFieldViewModifier.swift in Sources */,
 				287804D728C5B04300B6845D /* TwitterSwiftUICloneApp.swift in Sources */,
+				28F9C19028C7277A00C1D2E1 /* Message.swift in Sources */,
 				28F9C18428C725B000C1D2E1 /* DevicesAttributes.swift in Sources */,
 				28F9C16E28C724BF00C1D2E1 /* FrameModifier.swift in Sources */,
 				28F9C17A28C7253900C1D2E1 /* View.swift in Sources */,
 				28F9C17428C7250000C1D2E1 /* CustomCornerRadius.swift in Sources */,
+				28F9C19228C7279200C1D2E1 /* Tweet.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
