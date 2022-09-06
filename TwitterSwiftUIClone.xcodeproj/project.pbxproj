@@ -43,6 +43,7 @@
 		28F9C19828C72EB600C1D2E1 /* TweetAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F9C19728C72EB600C1D2E1 /* TweetAPIService.swift */; };
 		28F9C19A28C72EF800C1D2E1 /* UserAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F9C19928C72EF800C1D2E1 /* UserAPIService.swift */; };
 		28F9C19C28C72F4700C1D2E1 /* UserRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F9C19B28C72F4700C1D2E1 /* UserRepository.swift */; };
+		28F9C19E28C72FAC00C1D2E1 /* AuthUserRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F9C19D28C72FAC00C1D2E1 /* AuthUserRepository.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -78,6 +79,7 @@
 		28F9C19728C72EB600C1D2E1 /* TweetAPIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetAPIService.swift; sourceTree = "<group>"; };
 		28F9C19928C72EF800C1D2E1 /* UserAPIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAPIService.swift; sourceTree = "<group>"; };
 		28F9C19B28C72F4700C1D2E1 /* UserRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRepository.swift; sourceTree = "<group>"; };
+		28F9C19D28C72FAC00C1D2E1 /* AuthUserRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthUserRepository.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,6 +172,7 @@
 		28F9C14B28C7202300C1D2E1 /* Repository */ = {
 			isa = PBXGroup;
 			children = (
+				28F9C19D28C72FAC00C1D2E1 /* AuthUserRepository.swift */,
 				28F9C19B28C72F4700C1D2E1 /* UserRepository.swift */,
 			);
 			path = Repository;
@@ -494,6 +497,7 @@
 				28F9C19628C728E500C1D2E1 /* MessageAPIService.swift in Sources */,
 				28F9C18A28C7266A00C1D2E1 /* AuthUserAPIService.swift in Sources */,
 				28F9C17828C7252900C1D2E1 /* FirebaseGlobals.swift in Sources */,
+				28F9C19E28C72FAC00C1D2E1 /* AuthUserRepository.swift in Sources */,
 				28F9C18E28C7275600C1D2E1 /* UserStats.swift in Sources */,
 				28F9C17628C7251700C1D2E1 /* TypeAliasses.swift in Sources */,
 				28F9C19828C72EB600C1D2E1 /* TweetAPIService.swift in Sources */,
