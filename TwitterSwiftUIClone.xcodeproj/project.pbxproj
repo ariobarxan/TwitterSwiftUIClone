@@ -44,6 +44,7 @@
 		28F9C19A28C72EF800C1D2E1 /* UserAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F9C19928C72EF800C1D2E1 /* UserAPIService.swift */; };
 		28F9C19C28C72F4700C1D2E1 /* UserRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F9C19B28C72F4700C1D2E1 /* UserRepository.swift */; };
 		28F9C19E28C72FAC00C1D2E1 /* AuthUserRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F9C19D28C72FAC00C1D2E1 /* AuthUserRepository.swift */; };
+		28F9C1A028C72FFC00C1D2E1 /* TweetRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F9C19F28C72FFC00C1D2E1 /* TweetRepository.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -80,6 +81,7 @@
 		28F9C19928C72EF800C1D2E1 /* UserAPIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAPIService.swift; sourceTree = "<group>"; };
 		28F9C19B28C72F4700C1D2E1 /* UserRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRepository.swift; sourceTree = "<group>"; };
 		28F9C19D28C72FAC00C1D2E1 /* AuthUserRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthUserRepository.swift; sourceTree = "<group>"; };
+		28F9C19F28C72FFC00C1D2E1 /* TweetRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetRepository.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -173,6 +175,7 @@
 			isa = PBXGroup;
 			children = (
 				28F9C19D28C72FAC00C1D2E1 /* AuthUserRepository.swift */,
+				28F9C19F28C72FFC00C1D2E1 /* TweetRepository.swift */,
 				28F9C19B28C72F4700C1D2E1 /* UserRepository.swift */,
 			);
 			path = Repository;
@@ -506,6 +509,7 @@
 				28F9C16C28C724AE00C1D2E1 /* ImagePicker.swift in Sources */,
 				28F9C18C28C7273500C1D2E1 /* User.swift in Sources */,
 				28F9C17C28C7254400C1D2E1 /* Color.swift in Sources */,
+				28F9C1A028C72FFC00C1D2E1 /* TweetRepository.swift in Sources */,
 				28F9C17E28C7256700C1D2E1 /* TweetFilterOptions.swift in Sources */,
 				28F9C18828C725D600C1D2E1 /* APIResult.swift in Sources */,
 				28F9C19428C7287F00C1D2E1 /* FollowUnfollowAPIService.swift in Sources */,
