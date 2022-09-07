@@ -20,6 +20,15 @@
 		285A9C6928C8764B0001192E /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285A9C6828C8764B0001192E /* UserCell.swift */; };
 		285A9C6B28C876670001192E /* ConversationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285A9C6A28C876670001192E /* ConversationCell.swift */; };
 		285A9C6D28C877BD0001192E /* TweetDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285A9C6C28C877BD0001192E /* TweetDetailView.swift */; };
+		285A9C6F28C878190001192E /* SerachBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285A9C6E28C878190001192E /* SerachBar.swift */; };
+		285A9C7128C878280001192E /* FloatingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285A9C7028C878280001192E /* FloatingButton.swift */; };
+		285A9C7328C8783C0001192E /* UserSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285A9C7228C8783C0001192E /* UserSearchView.swift */; };
+		285A9C7528C8784E0001192E /* TextArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285A9C7428C8784E0001192E /* TextArea.swift */; };
+		285A9C7728C8785C0001192E /* EmailField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285A9C7628C8785C0001192E /* EmailField.swift */; };
+		285A9C7928C8786D0001192E /* PassField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285A9C7828C8786D0001192E /* PassField.swift */; };
+		285A9C7B28C878990001192E /* AuthenticationButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285A9C7A28C878990001192E /* AuthenticationButton.swift */; };
+		285A9C7D28C878B30001192E /* CustomAuthenticationField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285A9C7C28C878B30001192E /* CustomAuthenticationField.swift */; };
+		285A9C7F28C878C20001192E /* LazyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285A9C7E28C878C20001192E /* LazyView.swift */; };
 		287804D728C5B04300B6845D /* TwitterSwiftUICloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287804D628C5B04300B6845D /* TwitterSwiftUICloneApp.swift */; };
 		287804D928C5B04300B6845D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287804D828C5B04300B6845D /* ContentView.swift */; };
 		287804DB28C5B04500B6845D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 287804DA28C5B04500B6845D /* Assets.xcassets */; };
@@ -75,6 +84,15 @@
 		285A9C6828C8764B0001192E /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
 		285A9C6A28C876670001192E /* ConversationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationCell.swift; sourceTree = "<group>"; };
 		285A9C6C28C877BD0001192E /* TweetDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetDetailView.swift; sourceTree = "<group>"; };
+		285A9C6E28C878190001192E /* SerachBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SerachBar.swift; sourceTree = "<group>"; };
+		285A9C7028C878280001192E /* FloatingButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingButton.swift; sourceTree = "<group>"; };
+		285A9C7228C8783C0001192E /* UserSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSearchView.swift; sourceTree = "<group>"; };
+		285A9C7428C8784E0001192E /* TextArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextArea.swift; sourceTree = "<group>"; };
+		285A9C7628C8785C0001192E /* EmailField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailField.swift; sourceTree = "<group>"; };
+		285A9C7828C8786D0001192E /* PassField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassField.swift; sourceTree = "<group>"; };
+		285A9C7A28C878990001192E /* AuthenticationButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationButton.swift; sourceTree = "<group>"; };
+		285A9C7C28C878B30001192E /* CustomAuthenticationField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAuthenticationField.swift; sourceTree = "<group>"; };
+		285A9C7E28C878C20001192E /* LazyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyView.swift; sourceTree = "<group>"; };
 		287804D328C5B04300B6845D /* TwitterSwiftUIClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwitterSwiftUIClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		287804D628C5B04300B6845D /* TwitterSwiftUICloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterSwiftUICloneApp.swift; sourceTree = "<group>"; };
 		287804D828C5B04300B6845D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -400,6 +418,15 @@
 		28F9C15F28C720D900C1D2E1 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				285A9C6E28C878190001192E /* SerachBar.swift */,
+				285A9C7028C878280001192E /* FloatingButton.swift */,
+				285A9C7228C8783C0001192E /* UserSearchView.swift */,
+				285A9C7428C8784E0001192E /* TextArea.swift */,
+				285A9C7628C8785C0001192E /* EmailField.swift */,
+				285A9C7828C8786D0001192E /* PassField.swift */,
+				285A9C7A28C878990001192E /* AuthenticationButton.swift */,
+				285A9C7C28C878B30001192E /* CustomAuthenticationField.swift */,
+				285A9C7E28C878C20001192E /* LazyView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -540,23 +567,29 @@
 				28F9C18028C7258000C1D2E1 /* StyleGuide.swift in Sources */,
 				28F9C17228C724EF00C1D2E1 /* BubbleShape.swift in Sources */,
 				285A9C6528C875F40001192E /* MessageViewModel.swift in Sources */,
+				285A9C7728C8785C0001192E /* EmailField.swift in Sources */,
+				285A9C7B28C878990001192E /* AuthenticationButton.swift in Sources */,
 				28F9C18628C725C700C1D2E1 /* AssetsAccessPoint.swift in Sources */,
 				28F9C19628C728E500C1D2E1 /* MessageAPIService.swift in Sources */,
 				285A9C5528C8746E0001192E /* SignInViewModel.swift in Sources */,
+				285A9C7528C8784E0001192E /* TextArea.swift in Sources */,
 				28F9C18A28C7266A00C1D2E1 /* AuthUserAPIService.swift in Sources */,
 				285A9C5D28C874DD0001192E /* SearchViewModel.swift in Sources */,
 				28F9C17828C7252900C1D2E1 /* FirebaseGlobals.swift in Sources */,
 				28F9C19E28C72FAC00C1D2E1 /* AuthUserRepository.swift in Sources */,
 				28F9C18E28C7275600C1D2E1 /* UserStats.swift in Sources */,
 				285A9C5B28C874C40001192E /* NewTweetViewModel.swift in Sources */,
+				285A9C7928C8786D0001192E /* PassField.swift in Sources */,
 				28F9C17628C7251700C1D2E1 /* TypeAliasses.swift in Sources */,
 				28F9C1A228C7304700C1D2E1 /* MessageRepository.swift in Sources */,
 				285A9C6328C875E10001192E /* ChatViewModel.swift in Sources */,
+				285A9C7F28C878C20001192E /* LazyView.swift in Sources */,
 				285A9C6128C875AB0001192E /* UserProfileViewModel.swift in Sources */,
 				28F9C19828C72EB600C1D2E1 /* TweetAPIService.swift in Sources */,
 				28F9C16A28C7247800C1D2E1 /* AppColors.swift in Sources */,
 				28F9C19C28C72F4700C1D2E1 /* UserRepository.swift in Sources */,
 				285A9C6928C8764B0001192E /* UserCell.swift in Sources */,
+				285A9C7D28C878B30001192E /* CustomAuthenticationField.swift in Sources */,
 				285A9C6B28C876670001192E /* ConversationCell.swift in Sources */,
 				28F9C16C28C724AE00C1D2E1 /* ImagePicker.swift in Sources */,
 				28F9C18C28C7273500C1D2E1 /* User.swift in Sources */,
@@ -570,14 +603,17 @@
 				287804D928C5B04300B6845D /* ContentView.swift in Sources */,
 				28F9C18228C7259C00C1D2E1 /* FirestoreCollections.swift in Sources */,
 				28F9C17028C724D000C1D2E1 /* AuthenticationTextFieldViewModifier.swift in Sources */,
+				285A9C6F28C878190001192E /* SerachBar.swift in Sources */,
 				28F9C19A28C72EF800C1D2E1 /* UserAPIService.swift in Sources */,
 				287804D728C5B04300B6845D /* TwitterSwiftUICloneApp.swift in Sources */,
 				28F9C19028C7277A00C1D2E1 /* Message.swift in Sources */,
 				28F9C18428C725B000C1D2E1 /* DevicesAttributes.swift in Sources */,
 				28F9C16E28C724BF00C1D2E1 /* FrameModifier.swift in Sources */,
+				285A9C7328C8783C0001192E /* UserSearchView.swift in Sources */,
 				28F9C17A28C7253900C1D2E1 /* View.swift in Sources */,
 				28F9C17428C7250000C1D2E1 /* CustomCornerRadius.swift in Sources */,
 				285A9C5728C874890001192E /* SignUpViewModel.swift in Sources */,
+				285A9C7128C878280001192E /* FloatingButton.swift in Sources */,
 				28F9C19228C7279200C1D2E1 /* Tweet.swift in Sources */,
 				285A9C6D28C877BD0001192E /* TweetDetailView.swift in Sources */,
 			);
