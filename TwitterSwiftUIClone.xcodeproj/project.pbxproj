@@ -42,6 +42,7 @@
 		285A9C9528C87FF50001192E /* NewTweetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285A9C9428C87FF50001192E /* NewTweetView.swift */; };
 		285A9C9728C880120001192E /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285A9C9628C880120001192E /* FeedView.swift */; };
 		285A9C9928C880390001192E /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285A9C9828C880390001192E /* MainTabView.swift */; };
+		285A9C9B28C880540001192E /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285A9C9A28C880540001192E /* SignInView.swift */; };
 		287804D728C5B04300B6845D /* TwitterSwiftUICloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287804D628C5B04300B6845D /* TwitterSwiftUICloneApp.swift */; };
 		287804D928C5B04300B6845D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287804D828C5B04300B6845D /* ContentView.swift */; };
 		287804DB28C5B04500B6845D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 287804DA28C5B04500B6845D /* Assets.xcassets */; };
@@ -119,6 +120,7 @@
 		285A9C9428C87FF50001192E /* NewTweetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTweetView.swift; sourceTree = "<group>"; };
 		285A9C9628C880120001192E /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
 		285A9C9828C880390001192E /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		285A9C9A28C880540001192E /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
 		287804D328C5B04300B6845D /* TwitterSwiftUIClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwitterSwiftUIClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		287804D628C5B04300B6845D /* TwitterSwiftUICloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterSwiftUICloneApp.swift; sourceTree = "<group>"; };
 		287804D828C5B04300B6845D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -516,6 +518,7 @@
 		28F9C16628C7210100C1D2E1 /* Authentication */ = {
 			isa = PBXGroup;
 			children = (
+				285A9C9A28C880540001192E /* SignInView.swift */,
 			);
 			path = Authentication;
 			sourceTree = "<group>";
@@ -651,6 +654,7 @@
 				28F9C19428C7287F00C1D2E1 /* FollowUnfollowAPIService.swift in Sources */,
 				287804D928C5B04300B6845D /* ContentView.swift in Sources */,
 				28F9C18228C7259C00C1D2E1 /* FirestoreCollections.swift in Sources */,
+				285A9C9B28C880540001192E /* SignInView.swift in Sources */,
 				28F9C17028C724D000C1D2E1 /* AuthenticationTextFieldViewModifier.swift in Sources */,
 				285A9C6F28C878190001192E /* SerachBar.swift in Sources */,
 				28F9C19A28C72EF800C1D2E1 /* UserAPIService.swift in Sources */,
