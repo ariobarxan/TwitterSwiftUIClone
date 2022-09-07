@@ -27,7 +27,9 @@ struct UserProfileView: View {
                     .padding()
                 
                 showTweets()
+                    .padding(.horizontal, 5)
             }
+            
         }
         .onAppear {
             viewModel.checkIfFollowed()

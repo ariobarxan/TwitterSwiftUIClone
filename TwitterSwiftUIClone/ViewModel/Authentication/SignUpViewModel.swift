@@ -32,10 +32,8 @@ final class SignUpViewModel: ObservableObject{
         
         self.repository.registerUser(user){ response, fireBaseUser in
             guard response == .successful else {return}
-            
+            print("DEBUG: == \(response)")
             self.userSession = fireBaseUser
- 
-
         }
         
         ///Create the AuthUser Object

@@ -39,14 +39,14 @@ struct MainTabView: View {
             }
             .toolbar{
                 ToolbarItem(placement: .navigationBarLeading) {
+                    showUserProfile()
+                }
+                
+                ToolbarItem(placement: .navigationBarTrailing) {
                     Button(action: {
                         viewModel.signOut()
                     }){
-                        KFImage(URL(string: viewModel.user?.profileImageURL ?? ""))
-                            .resizable()
-                            .scaledToFill()
-                            .frame(size: 30)
-                            .clipShape(Circle())
+                        Text("Sign out")
                     }
                 }
             }
@@ -64,4 +64,33 @@ struct MainTabView_Previews: PreviewProvider {
     }
 }
 
+extension MainTabView{
+    func showUserProfile() -> some View {
+        
+        if let user = viewModel.user {
+            return AnyView(
+                NavigationLink(destination: {
+                    UserProfileView()
+                    .environmentObject(UserProfileViewModel(user: user))
+            }){
+                KFImage(URL(string: viewModel.user?.profileImageURL ?? ""))
+                    .resizable()
+                    .scaledToFill()
+                    .frame(size: 30)
+                    .clipShape(Circle())
+            })
+        }else {
+            return AnyView( Button(action: {}){
+                KFImage(URL(string: viewModel.user?.profileImageURL ?? ""))
+                    .resizable()
+                    .scaledToFill()
+                    .frame(size: 30)
+                    .clipShape(Circle())
+            }
+            )
+        }
+       
+    }
+}
 
+//TODO: - Take care of force unwrap here
