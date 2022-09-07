@@ -9,11 +9,12 @@ import Foundation
 import Firebase
 
 
-struct ChatViewModel{
+final class ChatViewModel: ObservableObject{
     
     let user: User
     
     let messageRepository: MessageRepositoryProtocol
+    @Published var messages = [Message]()
     
     init(user: User, repository: MessageRepositoryProtocol = MessageRepository()){
         self.user = user
@@ -24,7 +25,11 @@ struct ChatViewModel{
         self.messageRepository.sendMessage(message, toUser: user)
     }
     
-    func showMessages(){}
+    func showMessages(){
+        messageRepository.fetchMessages(withUser: user.uid ?? "") { messages in
+            self.messages = messages
+        }
+    }
 
     
 }

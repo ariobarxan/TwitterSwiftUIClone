@@ -9,37 +9,45 @@ import SwiftUI
 
 struct NewMessageView: View {
     //MARK: - Var
-    @State private var searchText = ""
     @Binding var isShowingNewMessages: Bool
-        
+    @Binding var user: User?
+    @StateObject private var viewModel = SearchViewModel(config: .newMessage)
+    
     //MARK: - MainBody
     var body: some View {
         ScrollView{
             
-            SearchBar(searchString: $searchText)
+            SearchBar(searchString: $viewModel.searchText)
                 .padding()
             
             VStack{
-                ForEach(0..<10){ _ in
-                  
+                ForEach(viewModel.searchText.isEmpty ?  viewModel.users : viewModel.filteredUsers()){ user in
                     HStack{
-//                        UserCell()
-//                            .onTapGesture {
-//                                isShowingNewMessages.toggle()
-//                            }
-//
+                        
+                        Button(action: {
+                            self.isShowingNewMessages.toggle()
+                            self.user = user
+                            
+                        }) {
+                            UserCell(user: user)
+                        }
+                        
                         Spacer()
                     }
-                    .padding(.bottom, 5)
+                    Divider()
                 }
             }
             .padding(.leading)
+          
+        }
+        .onAppear{
+            viewModel.updateUsers()
         }
     }
 }
 
-struct NewMessageView_Previews: PreviewProvider {
-    static var previews: some View {
-        NewMessageView(isShowingNewMessages: .constant(true))
-    }
-}
+//struct NewMessageView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        NewMessageView(isShowingNewMessages: .constant(true))
+//    }
+//}

@@ -6,13 +6,14 @@
 //
 
 import SwiftUI
+import Kingfisher
 
 struct ChatView: View {
     
     //MARK: - Var
     @State private var text: String = ""
     let user: User
-    let viewModel: ChatViewModel
+    @ObservedObject var viewModel: ChatViewModel
     
     //MARK: - Initializer
     init(user: User){
@@ -25,21 +26,23 @@ struct ChatView: View {
         VStack{
             ScrollView{
                 LazyVStack(alignment: .leading, spacing: 12){
-                    ForEach(MOCK_MESSAGE){ message in
-                        HStack(alignment: .bottom, spacing: 0){
+                    ForEach(viewModel.messages){ message in
+                        HStack(alignment: .center, spacing: 0){
                             
-                            if message.isCurrentUser{
-                                Image(message.imageName)
+                            if message.isFromCurrentUser{
+                                KFImage(URL(string: viewModel.user.profileImageURL ?? ""))
                                     .resizable()
                                     .scaledToFill()
                                     .frame(size: 40)
                                     .clipShape(Circle())
+                                    .padding(.leading, 5)
                                     
                             }
                             
                             ChatBubble(message: message)
                         }
-                        .padding(.horizontal)
+                       
+                      
                     }
                 }
             }
@@ -51,6 +54,9 @@ struct ChatView: View {
             
                 .navigationTitle(user.username)
         }
+        .onAppear{
+            viewModel.showMessages()
+        }
     }
 }
 
@@ -59,3 +65,4 @@ struct ChatView: View {
 //        ChatView()
 //    }
 //}
+//TODO: - Examine why it navigate out after sending the text message

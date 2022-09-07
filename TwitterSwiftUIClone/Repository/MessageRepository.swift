@@ -11,13 +11,15 @@ protocol MessageRepositoryProtocol{
     func sendMessage(_ messageText: String, toUser user: User)
     
     func fetchRecentMessages(completion: @escaping (_ recentMessages: [Message]) -> ())
+    
+    func fetchMessages(withUser fromUserUID: String, completion: @escaping (_ messages: [Message]) -> ())
 }
 
 final class MessageRepository: MessageRepositoryProtocol{
     
     private var messageAPIService: MessageAPIServiceProtocol
     private var recentMessagesDictionary = [String: Message]()
-    
+    private var messages = [Message]()
     
     init(APIService: MessageAPIServiceProtocol = MessageAPIService()){
         self.messageAPIService = APIService
@@ -34,6 +36,16 @@ final class MessageRepository: MessageRepositoryProtocol{
             let recentMessages = Array(self.recentMessagesDictionary.values)
             
             completion(recentMessages)
+        }
+    }
+    
+    
+    func fetchMessages(withUser fromUserUID: String, completion: @escaping (_ messages: [Message]) -> ()){
+
+        messageAPIService.fetchMessages(withUserID: fromUserUID) { user, messageDict in
+            self.messages.append(Message(user: user, dictionary: messageDict))
+           
+            completion(self.messages)
         }
     }
 }

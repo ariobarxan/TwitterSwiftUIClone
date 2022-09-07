@@ -12,6 +12,8 @@ protocol MessageAPIServiceProtocol{
     func sendMessage(_ messageText: String, toUser user: User)
     
     func fetchRecentMessage(completion: @escaping (_ user: User, _ messageDict: [String: Any]) -> ())
+    
+    func fetchMessages(withUserID fromUserID: String, completion: @escaping (_ user: User, _ messageDict: [String: Any]) -> ())
 }
 
 final class MessageAPIService: MessageAPIServiceProtocol{
@@ -59,6 +61,30 @@ final class MessageAPIService: MessageAPIServiceProtocol{
 
                 userRepo.retrieveUser(with: uid) { user in
                     completion(user, data)
+                }
+            }
+        }
+    }
+    
+    func fetchMessages(withUserID fromUserID: String, completion: @escaping (_ fromUser: User, _ messageDict: [String: Any]) -> ()){
+        guard let uid = Auth.auth().currentUser?.uid else {return}
+        
+        let query = COLLECTION_MESSAGES.document(uid).collection(fromUserID)
+        
+        query.order(by: "timestamp", descending: false)
+        
+        ///Adding observer on the backend
+        query.addSnapshotListener { querySnapshot, _ in
+            guard let changes = querySnapshot?.documentChanges.filter({$0.type == .added}) else {return}
+            
+            changes.forEach{ change in
+                let messageData = change.document.data()
+                guard let fromID = messageData["fromID"] as? String else {return}
+                
+                let userRepo = UserRepository()
+
+                userRepo.retrieveUser(with: fromID) { user in
+                    completion(user, messageData)
                 }
             }
         }

@@ -10,7 +10,7 @@ import SwiftUI
 struct SearchView: View {
     
     //MARK: - Var
-    @StateObject private var viewModel = SearchViewModel()
+    @StateObject private var viewModel = SearchViewModel(config: .search)
     
     //MARK: - MainBody
     var body: some View {

@@ -6,48 +6,55 @@
 //
 
 import SwiftUI
+import Kingfisher
 
 struct ConversationCell: View {
     
     //MARK: - Var
-    private var size: CGFloat = 56
+    private let size: CGFloat = 56
+    let message: Message
     
     //MARK: - MainBody
     var body: some View {
         VStack {
             HStack{
-                Image("batman")
+                KFImage(URL(string: message.user.profileImageURL ?? ""))
                     .resizable()
                     .scaledToFill()
                     .clipped()
                     .frame(size: size)
                     .cornerRadius(size / 2)
                 
+               
+                
                 VStack(alignment: .leading, spacing: 4){
-                    Text("batman")
+                    Text(message.user.username)
                         .fontWeight(.semibold)
                     
-                    Text("Longer Message for showing the last message sent from the user, and the other thig that I want to test is that I don't want to show more than 2 lines")
+                    Text(message.text)
                         .lineLimit(2)
+                        .multilineTextAlignment(.leading)
                         
                     
                 }
                 .font(.system(size: 14))
                 .padding(.trailing)
                 
+                Spacer(minLength: 0)
             }
             
             Divider()
         }
+        .padding(.horizontal)
         .foregroundColor(.black)
     }
 }
 
-struct ConversationCell_Previews: PreviewProvider {
-    static var previews: some View {
-        ConversationCell()
-    }
-}
+//struct ConversationCell_Previews: PreviewProvider {
+//    static var previews: some View {
+//        ConversationCell()
+//    }
+//}
 
 extension ConversationCell{
     ///add image
