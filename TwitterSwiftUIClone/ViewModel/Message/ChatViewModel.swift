@@ -24,6 +24,7 @@ struct ChatViewModel{
         self.messageRepository.sendMessage(message, toUser: user)
     }
     
+    func showMessages(){}
 
     
 }

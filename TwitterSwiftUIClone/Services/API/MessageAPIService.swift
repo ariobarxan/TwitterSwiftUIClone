@@ -16,7 +16,6 @@ protocol MessageAPIServiceProtocol{
 
 final class MessageAPIService: MessageAPIServiceProtocol{
     
-    
     //MARK: - Functions
     func sendMessage(_ messageText: String, toUser user: User){
         guard let currentUID = Auth.auth().currentUser?.uid else {return}

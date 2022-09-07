@@ -19,7 +19,7 @@ final class MessageViewModel: ObservableObject{
     
     func fetchRecentMessages(){
         messageRepository.fetchRecentMessages { recentMessage in
-            self.recentMessages.append(recentMessage)
+            self.recentMessages = recentMessage
         }
     }
     
