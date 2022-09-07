@@ -36,6 +36,8 @@
 		285A9C8928C87DFB0001192E /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285A9C8828C87DFB0001192E /* ChatView.swift */; };
 		285A9C8B28C87E200001192E /* ChatInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285A9C8A28C87E200001192E /* ChatInputView.swift */; };
 		285A9C8D28C87E5F0001192E /* ChatBubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285A9C8C28C87E5F0001192E /* ChatBubble.swift */; };
+		285A9C8F28C87EDD0001192E /* NewMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285A9C8E28C87EDD0001192E /* NewMessageView.swift */; };
+		285A9C9128C87EF00001192E /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285A9C9028C87EF00001192E /* MessageView.swift */; };
 		287804D728C5B04300B6845D /* TwitterSwiftUICloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287804D628C5B04300B6845D /* TwitterSwiftUICloneApp.swift */; };
 		287804D928C5B04300B6845D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287804D828C5B04300B6845D /* ContentView.swift */; };
 		287804DB28C5B04500B6845D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 287804DA28C5B04500B6845D /* Assets.xcassets */; };
@@ -107,6 +109,8 @@
 		285A9C8828C87DFB0001192E /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
 		285A9C8A28C87E200001192E /* ChatInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatInputView.swift; sourceTree = "<group>"; };
 		285A9C8C28C87E5F0001192E /* ChatBubble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatBubble.swift; sourceTree = "<group>"; };
+		285A9C8E28C87EDD0001192E /* NewMessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewMessageView.swift; sourceTree = "<group>"; };
+		285A9C9028C87EF00001192E /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
 		287804D328C5B04300B6845D /* TwitterSwiftUIClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwitterSwiftUIClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		287804D628C5B04300B6845D /* TwitterSwiftUICloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterSwiftUICloneApp.swift; sourceTree = "<group>"; };
 		287804D828C5B04300B6845D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -467,9 +471,11 @@
 		28F9C16228C720ED00C1D2E1 /* Message */ = {
 			isa = PBXGroup;
 			children = (
+				285A9C9028C87EF00001192E /* MessageView.swift */,
 				285A9C8828C87DFB0001192E /* ChatView.swift */,
 				285A9C8A28C87E200001192E /* ChatInputView.swift */,
 				285A9C8C28C87E5F0001192E /* ChatBubble.swift */,
+				285A9C8E28C87EDD0001192E /* NewMessageView.swift */,
 			);
 			path = Message;
 			sourceTree = "<group>";
@@ -602,6 +608,7 @@
 				28F9C17828C7252900C1D2E1 /* FirebaseGlobals.swift in Sources */,
 				28F9C19E28C72FAC00C1D2E1 /* AuthUserRepository.swift in Sources */,
 				28F9C18E28C7275600C1D2E1 /* UserStats.swift in Sources */,
+				285A9C9128C87EF00001192E /* MessageView.swift in Sources */,
 				285A9C5B28C874C40001192E /* NewTweetViewModel.swift in Sources */,
 				285A9C7928C8786D0001192E /* PassField.swift in Sources */,
 				28F9C17628C7251700C1D2E1 /* TypeAliasses.swift in Sources */,
@@ -635,6 +642,7 @@
 				285A9C8728C87DCE0001192E /* FilterButtonView.swift in Sources */,
 				287804D728C5B04300B6845D /* TwitterSwiftUICloneApp.swift in Sources */,
 				28F9C19028C7277A00C1D2E1 /* Message.swift in Sources */,
+				285A9C8F28C87EDD0001192E /* NewMessageView.swift in Sources */,
 				28F9C18428C725B000C1D2E1 /* DevicesAttributes.swift in Sources */,
 				28F9C16E28C724BF00C1D2E1 /* FrameModifier.swift in Sources */,
 				285A9C7328C8783C0001192E /* UserSearchView.swift in Sources */,
