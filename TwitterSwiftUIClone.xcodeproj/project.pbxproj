@@ -16,6 +16,9 @@
 		285A9C6128C875AB0001192E /* UserProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285A9C6028C875AB0001192E /* UserProfileViewModel.swift */; };
 		285A9C6328C875E10001192E /* ChatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285A9C6228C875E10001192E /* ChatViewModel.swift */; };
 		285A9C6528C875F40001192E /* MessageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285A9C6428C875F30001192E /* MessageViewModel.swift */; };
+		285A9C6728C8763B0001192E /* TweetCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285A9C6628C8763B0001192E /* TweetCell.swift */; };
+		285A9C6928C8764B0001192E /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285A9C6828C8764B0001192E /* UserCell.swift */; };
+		285A9C6B28C876670001192E /* ConversationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285A9C6A28C876670001192E /* ConversationCell.swift */; };
 		287804D728C5B04300B6845D /* TwitterSwiftUICloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287804D628C5B04300B6845D /* TwitterSwiftUICloneApp.swift */; };
 		287804D928C5B04300B6845D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287804D828C5B04300B6845D /* ContentView.swift */; };
 		287804DB28C5B04500B6845D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 287804DA28C5B04500B6845D /* Assets.xcassets */; };
@@ -67,6 +70,9 @@
 		285A9C6028C875AB0001192E /* UserProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileViewModel.swift; sourceTree = "<group>"; };
 		285A9C6228C875E10001192E /* ChatViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewModel.swift; sourceTree = "<group>"; };
 		285A9C6428C875F30001192E /* MessageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageViewModel.swift; sourceTree = "<group>"; };
+		285A9C6628C8763B0001192E /* TweetCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetCell.swift; sourceTree = "<group>"; };
+		285A9C6828C8764B0001192E /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
+		285A9C6A28C876670001192E /* ConversationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationCell.swift; sourceTree = "<group>"; };
 		287804D328C5B04300B6845D /* TwitterSwiftUIClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwitterSwiftUIClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		287804D628C5B04300B6845D /* TwitterSwiftUICloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterSwiftUICloneApp.swift; sourceTree = "<group>"; };
 		287804D828C5B04300B6845D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -382,6 +388,9 @@
 		28F9C15E28C720D500C1D2E1 /* Items */ = {
 			isa = PBXGroup;
 			children = (
+				285A9C6628C8763B0001192E /* TweetCell.swift */,
+				285A9C6828C8764B0001192E /* UserCell.swift */,
+				285A9C6A28C876670001192E /* ConversationCell.swift */,
 			);
 			path = Items;
 			sourceTree = "<group>";
@@ -524,6 +533,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				285A9C6728C8763B0001192E /* TweetCell.swift in Sources */,
 				28F9C18028C7258000C1D2E1 /* StyleGuide.swift in Sources */,
 				28F9C17228C724EF00C1D2E1 /* BubbleShape.swift in Sources */,
 				285A9C6528C875F40001192E /* MessageViewModel.swift in Sources */,
@@ -543,6 +553,8 @@
 				28F9C19828C72EB600C1D2E1 /* TweetAPIService.swift in Sources */,
 				28F9C16A28C7247800C1D2E1 /* AppColors.swift in Sources */,
 				28F9C19C28C72F4700C1D2E1 /* UserRepository.swift in Sources */,
+				285A9C6928C8764B0001192E /* UserCell.swift in Sources */,
+				285A9C6B28C876670001192E /* ConversationCell.swift in Sources */,
 				28F9C16C28C724AE00C1D2E1 /* ImagePicker.swift in Sources */,
 				28F9C18C28C7273500C1D2E1 /* User.swift in Sources */,
 				28F9C17C28C7254400C1D2E1 /* Color.swift in Sources */,
